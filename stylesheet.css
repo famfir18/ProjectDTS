@@ -1,0 +1,421 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position:fixed;
+  z-index:10;
+}
+
+.feature{
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 250px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img{
+  width: 100px;
+  height: 100px;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* .container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+} */
+
+.logo {
+  width: 44px;
+  margin-top: 10px;
+}
+
+/* Tambahkan CSS untuk header-left */
+.header-left{
+  float:left;
+}
+
+.header-right {
+  float: right;
+  /* Ubah property transition */
+  transition: all 0.5s;
+}
+
+.header-right a {
+ line-height: 65px;
+padding-left: 25px;
+padding-right: 25px;
+color: black;
+float: left;
+display:block;
+}
+
+.home:hover{
+  background-color:rgba(0, 0, 0, 0.473);
+  transition: all 0.5s;
+}
+
+.home:hover{
+  color: white;
+}
+
+.features:hover{
+  background-color:rgba(0, 0, 0, 0.473);
+  transition: all 0.5s;
+}
+
+.features:hover{
+  color: white;
+}
+
+.about:hover{
+  background-color:rgba(0, 0, 0, 0.473);
+  transition: all 0.5s;
+}
+
+.about:hover{
+  color: white;
+}
+
+.contact:hover{
+  background-color:rgba(0, 0, 0, 0.473);
+  transition: all 0.5s;
+}
+
+.contact:hover{
+  color: white;
+}
+
+body {
+  font-family: "Gill Sans";
+}
+
+li {
+  list-style: none;
+}
+
+.contact-form{
+  margin:0px 80px;
+  margin-bottom:100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+/* Ketik code Anda dibawah */
+.header-list li{
+  float:left;
+  margin: 33px 20px;
+}
+
+.contents {
+  height:500px;
+  padding: 0px 370px;
+}
+
+.contents h3{
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.contents-item1 p{
+  font-size:24px;
+}
+
+
+.contents-item1{
+  float: left;
+  margin-right: 40px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.contents-item1 img{
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 300px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.contents-item1 img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 0.5s;
+}
+
+.contents-item2 img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 0.5s;
+}
+
+.contents-item3 img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 0.5s;
+}
+
+
+.contents2 {
+  height:500px;
+  margin-bottom: -50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.contents-item2 p{
+  font-size:24px;
+}
+
+
+.contents-item2{
+  margin-right: 40px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.contents-item2 img{
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 300px;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
+/* .contents3 .contents-item3 img{
+  margin-bottom:10px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+} */
+
+.contents3 {
+  height:500px;
+  padding: 0px 370px;
+}
+
+.contents3 h3{
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+  text-align: center
+}
+
+.contents-item3 p{
+  font-size:24px;
+}
+
+
+.contents-item3{
+  float: left;
+  margin-right: 40px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.contents-item3 img{
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 300px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
+.contents-item{
+  float:left;
+  margin-right:40px;
+}
+
+/* .header-list h1{
+  float:left;
+  margin:20px 40px;
+}
+
+header {
+  height:90px;
+  background-color:#26d0c9;
+  color:#fff
+} */
+
+.copy-container h1{
+  font-size:140px;
+}
+
+span{
+  color:#ff4a4a;
+}
+
+.copy-container h2{
+  font-size:60px;
+}
+
+.copy-container{
+  margin-top:100px;
+  margin-left:80px;
+  margin-right:80px;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: "Gill Sans";
+}
+
+head{
+  font-family: "Gill Sans";
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  margin-right: 30px;
+  font-size:14px;
+  border:1px solid #dee7ec;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  height: 300px;
+  padding: 180px 0 100px 0;
+  background-image: url(https://wallpaperaccess.com/full/1457926.jpg);
+  background-size: cover;
+  color:  rgb(255, 255, 255);
+  text-anchor: #2f5167;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.btn-primary {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+.fa {
+  margin-right :5px;
+}
+
+
